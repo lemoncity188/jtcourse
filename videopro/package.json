@@ -1,0 +1,31 @@
+{
+  "name": "gww",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --content-base ./src/webapp",
+    "b": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "element-ui": "^1.1.5",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.26.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue": "^2.1.10",
+    "vue-loader": "^10.0.2",
+    "vue-resource": "^1.0.3",
+    "vue-template-compiler": "^2.1.10",
+    "vuex": "^2.1.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
