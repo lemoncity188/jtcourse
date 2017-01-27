@@ -14,5 +14,5 @@ use yii\web\Response;
 class NavbarController extends BaseController{
 
     public $modelClass = 'app\m\NavBar';
-    
+
 }
